@@ -5,6 +5,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: adit_fe
+    container_name: umi_0downtime
     ports:
-      - '8000:8000'
+      - '4545:8000'
