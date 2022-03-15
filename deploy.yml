@@ -2,7 +2,7 @@ version: '3.7'
 services:
 
   app:
-    image: sunflowers735/nodejs-0downtime:1.1
+    image: sunflowers735/nodejs-0downtime:1.0
     ports:
       - "4545:8000"
     deploy:
